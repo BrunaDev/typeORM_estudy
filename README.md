@@ -21,3 +21,29 @@ Com o Postman, ou suas plataforma de API desejada, crie as seguintes rotas:
 
 
 ###### Criado para fins de estudo
+
+***
+
+# Simple application with TypeORM
+
+## About
+This application creates a database using SQL-3 to store data about authors and their books. It was developed to test and better understand how TypeORM works in practice.
+
+### How to execute?
+
+Execution steps:
+
+1. Run the `npm i` command to install the application dependencies.
+2. Run the `npm start` command to start the server.
+
+
+### How to test?
+
+With Postman, or your desired API platform, create the following routes:
+
+1. `http://localhost:3000/authors` - Method: `GET`;
+2. `http://localhost:3000/authors` - Method: `POST` - Body: `{ "firstName": "John", "lastName": "Fowles" }`;
+3. `http://localhost:3000/books` - Method: `GET`;
+
+
+###### Created for study purposes
